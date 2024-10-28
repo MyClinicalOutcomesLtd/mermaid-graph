@@ -1,15 +1,14 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import MermaidGraph from "./MermaidGraph";
 
 export default {
-  title: "MermaidGraph",
+  title: "Components/MermaidGraph",
   component: MermaidGraph,
-} as ComponentMeta<typeof MermaidGraph>;
+  tags: ["autodocs"], // Optional, for auto-generated documentation
+} as Meta<typeof MermaidGraph>;
 
-const Template: ComponentStory<typeof MermaidGraph> = (args) => (
-  <MermaidGraph {...args} />
-);
+const Template: StoryFn<typeof MermaidGraph> = (args) => <MermaidGraph {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
