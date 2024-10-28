@@ -127,6 +127,10 @@ For local development:
 	2.	Install dependencies with npm install.
 	3.	Run Storybook to preview changes in a development environment:
 
+ ```bash 
+npx storybook init
+```
+
 ```bash 
 npm run storybook
 ```
