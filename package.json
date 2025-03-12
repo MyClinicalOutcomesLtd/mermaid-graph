@@ -50,7 +50,7 @@
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-typescript": "^12.1.1",
-    "mermaid": "^10.0.0",
+    "mermaid": "^11.4.1",
     "postcss": "^8.4.47",
     "rollup": "^4.24.2",
     "rollup-plugin-dts": "^6.1.1",

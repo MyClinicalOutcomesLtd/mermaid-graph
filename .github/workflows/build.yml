@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  push:
+    tags:
+      - "**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+            node-version: "lts/*" # Must be LTS version - even numbers - https://github.com/actions/setup-node/issues/838#issuecomment-1695766873
+            registry-url: https://npm.pkg.github.com/
+      
+      - id: set_node_environment_var
+        name: Set NODE_ENV
+        run: echo "NODE_ENV=production" >> $GITHUB_ENV
+
+      - run: npm install
+      - run: npm build
+
+      - name: Publish NPM package
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
