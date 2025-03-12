@@ -1,5 +1,5 @@
 {
-  "name": "mermaid-graph",
+  "name": "@myclinicaloutcomesltd/mermaid-graph",
   "version": "1.0.6",
   "description": "A React component library for rendering mermaid graphs with customizable interactions",
   "main": "dist/index.js",
@@ -7,9 +7,9 @@
   "types": "dist/types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MyClinicalOutcomesLtd/mermaid-graph"
+    "url": "git+https://github.com/MyClinicalOutcomesLtd/mermaid-graph.git"
   },
-  "homepage": "hhttps://github.com/MyClinicalOutcomesLtd/mermaid-graph#readme",
+  "homepage": "https://github.com/MyClinicalOutcomesLtd/mermaid-graph#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",

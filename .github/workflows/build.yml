@@ -18,6 +18,7 @@ jobs:
         with:
             node-version: "lts/*" # Must be LTS version - even numbers - https://github.com/actions/setup-node/issues/838#issuecomment-1695766873
             registry-url: https://npm.pkg.github.com/
+            scope: '@myclinicaloutcomesltd'
       
       - id: set_node_environment_var
         name: Set NODE_ENV
