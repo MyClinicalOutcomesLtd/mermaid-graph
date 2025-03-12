@@ -7,9 +7,9 @@
   "types": "dist/types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ConstAgility/mermaid-graph.git"
+    "url": "https://github.com/MyClinicalOutcomesLtd/mermaid-graph"
   },
-  "homepage": "https://github.com/ConstAgility/mermaid-graph#readme",
+  "homepage": "hhttps://github.com/MyClinicalOutcomesLtd/mermaid-graph#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
