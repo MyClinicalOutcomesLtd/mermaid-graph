@@ -24,7 +24,7 @@ jobs:
         run: echo "NODE_ENV=production" >> $GITHUB_ENV
 
       - run: npm install
-      - run: npm build
+      - run: npm run build
 
       - name: Publish NPM package
         run: npm publish
