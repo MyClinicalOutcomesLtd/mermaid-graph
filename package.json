@@ -6,7 +6,7 @@
   "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "./dist"
+    "dist", "types"
   ],
   "repository": {
     "type": "git",
@@ -15,7 +15,8 @@
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
-      "require": "./dist/index.js"
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "homepage": "https://github.com/MyClinicalOutcomesLtd/mermaid-graph#readme",
