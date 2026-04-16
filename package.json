@@ -1,6 +1,6 @@
 {
   "name": "@myclinicaloutcomesltd/mermaid-graph",
-  "version": "1.0.6",
+  "version": "1.2.0",
   "description": "A React component library for rendering mermaid graphs with customizable interactions",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

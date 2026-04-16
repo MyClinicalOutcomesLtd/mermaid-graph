@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.3
+        uses: actions/checkout@v6
 
       - name: Use Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
             node-version: "lts/*" # Must be LTS version - even numbers - https://github.com/actions/setup-node/issues/838#issuecomment-1695766873
             registry-url: https://npm.pkg.github.com/
